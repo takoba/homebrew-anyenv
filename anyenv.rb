@@ -12,7 +12,7 @@ class Anyenv < Formula
     prefix.install Dir["*"]
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<-EOS
     Add the following to the ~/.bashrc or ~/.zshrc file:
 
       echo 'eval "$(anyenv init -)"' >> ~/.your_profile
